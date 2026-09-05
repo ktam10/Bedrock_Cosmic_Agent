@@ -1,0 +1,41 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+agentcore/aws-targets.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js and AWS CDK
+node_modules/
+dist/
+build/
+cdk.out/
+
+# AgentCore-generated and deployment artifacts
+agentcore/.cache/
+agentcore/.cli/
+agentcore/*/staging/
+agentcore/*.zip
+
+# Generated evaluation output
+evals/results/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# This trace screenshot contains an AWS account/resource identifier.
+Screenshots/Datadog_span.png
+
+# Accidental local artifact
+=4.3.0

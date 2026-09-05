@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+  "name": "agcorenasa1",
+  "version": 1,
+  "managedBy": "CDK",
+  "tags": {
+    "agentcore:created-by": "agentcore-cli",
+    "agentcore:project-name": "agcorenasa1"
+  },
+  "runtimes": [
+    {
+      "name": "Nasa_agent1_agcore",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/Nasa_agent1_agcore/",
+      "runtimeVersion": "PYTHON_3_12",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    }
+  ],
+  "memories": [],
+  "knowledgeBases": [],
+  "credentials": [
+    {
+      "authorizerType": "ApiKeyCredentialProvider",
+      "name": "agcorenasa1OpenAI"
+    },
+    {
+      "authorizerType": "ApiKeyCredentialProvider",
+      "name": "cosmicExplorerDatadog"
+    }
+  ],
+  "evaluators": [],
+  "onlineEvalConfigs": [],
+  "agentCoreGateways": [],
+  "policyEngines": [],
+  "configBundles": [],
+  "abTests": [],
+  "harnesses": [],
+  "datasets": [],
+  "payments": []
+}

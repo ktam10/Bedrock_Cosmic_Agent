@@ -1,0 +1,6 @@
+bedrock-agentcore
+strands-agents[openai]
+requests
+python-dotenv
+uvicorn
+ddtrace>=4.3.0
