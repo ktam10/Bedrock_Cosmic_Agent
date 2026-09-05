@@ -71,8 +71,8 @@ agentcore --help
 ## 1. Clone and enter the project
 
 ```bash
-git clone https://github.com/ktam10/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/ktam10/Bedrock_Cosmic_Agent.git
+cd Bedrock_Cosmic_Agent
 ```
 
 ## 2. Configure local environment variables
@@ -264,7 +264,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Initial commit: Cosmic Explorer Agent"
-git remote add origin https://github.com/ktam10/<repository-name>.git
+git remote add origin https://github.com/ktam10/Bedrock_Cosmic_Agent.git
 git push -u origin main
 ```
 
